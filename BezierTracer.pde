@@ -79,8 +79,10 @@ void dumpToFile(){
   dump.close();
 }
 
-void bezierTracer(){
-  background(180);
+void bezierTracer(boolean back){
+  if(back){
+    background(180);
+  }
   if(globalinstructlist.isEmpty()){
     globalinstructlist.add(new Instruction("beginShape"));
   }else if(globalinstructlist.get(globalinstructlist.size()-1).type == "endShape"){
