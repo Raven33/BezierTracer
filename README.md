@@ -25,10 +25,8 @@ R -> Supprime tous les points. (/!\ cette commande vous fait perdre 
 
 
 # H1 Roadmap:
-- Message d'alerte dans la console lors d'erreur type bezierVertex avant vertex (au lieu de planter)
+- Message d'alerte dans la console lors d'erreur type bezierVertex avant vertex (au lieu de planter)
 
-- Suppression individuelle de point
+- Suppression individuelle de point
 
 - Commenter le code
-
-- ...
