@@ -29,4 +29,6 @@ R -> Supprime tous les points. (/!\ cette commande vous fait perdre 
 
 - Suppression individuelle de point
 
+- Commenter le code
+
 - ...
