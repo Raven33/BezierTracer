@@ -7,6 +7,7 @@ Ce programme exporte automatiquement la/les forme.s crée.s dans un fic
 # H1 Installation:
 allez dans:
 Sketch>ajouter un fichier ...
+
 puis sélectionner le fichier BezierTracer.pde
 Enfin, appelez la fonction bezierTracer() dans le draw de votre sketch.
 Passer en paramètre de cette fonction: true si vous souhaitez que la fonction actualise le background d'elle même, et false si vous souhaitez gérer le background vous même.
