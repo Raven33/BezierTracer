@@ -3,6 +3,7 @@
 Ce programme à pour but de permetre de dessiner facilement des courbe de Bézier dans Processing.
 Ce programme exporte automatiquement la/les forme.s crée.s dans un fichier texte (output_code.txt) dans le dossier du sketch.
 
+
 # H1 Installation:
 allez dans:
 Sketch>ajouter un fichier ...
@@ -12,12 +13,19 @@ Passer en paramètre de cette fonction: true si vous souhaitez que la
 
 # H1 Utilisation:
 Les touches et leurs correspondances:
+
 N -> nouveau point aux coordonnées de la souris.
+
 B -> nouvelle courbe de Bézier entre le point précédent et la position de la souris.
+
 E -> balise endShape(). (finis la forme)
+
 R -> Supprime tous les points. (/!\ cette commande vous fait perdre tous ce que vous avez dessiner /!\)
+
 
 # H1 Roadmap:
 - Message d'alerte dans la console lors d'erreur type bezierVertex avant vertex (au lieu de planter)
+
 - Suppression individuelle de point
+
 - ...
