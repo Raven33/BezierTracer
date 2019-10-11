@@ -21,7 +21,7 @@ B -> nouvelle courbe de Bézier entre le point précédent et la pos
 
 E -> balise endShape(). (finis la forme)
 
-R -> Supprime tous les points. (/!\ cette commande vous fait perdre tous ce que vous avez dessiner /!\)
+R -> Supprime tous les points. (/!\ cette commande vous fait perdre tous ce que vous avez dessiner /!\ )
 
 
 # H1 Roadmap:
