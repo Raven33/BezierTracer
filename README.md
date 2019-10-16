@@ -1,10 +1,10 @@
-# H1 Information générales:
+# Information générales:
 
 Ce programme à pour but de permetre de dessiner facilement des courbe de Bézier dans Processing.
 Ce programme exporte automatiquement la/les forme.s crée.s dans un fichier texte (output_code.txt) dans le dossier du sketch.
 
 
-# H1 Installation:
+# Installation:
 allez dans:
 Sketch>ajouter un fichier ...
 
@@ -12,7 +12,7 @@ puis sélectionner le fichier BezierTracer.pde
 Enfin, appelez la fonction bezierTracer() dans le draw de votre sketch.
 Passer en paramètre de cette fonction: true si vous souhaitez que la fonction actualise le background d'elle même, et false si vous souhaitez gérer le background vous même.
 
-# H1 Utilisation:
+# Utilisation:
 Les touches et leurs correspondances:
 
 N -> nouveau point aux coordonnées de la souris.
@@ -24,9 +24,19 @@ E -> balise endShape(). (finis la forme)
 R -> Supprime tous les points. (/!\ cette commande vous fait perdre tous ce que vous avez dessiner /!\ )
 
 
-# H1 Roadmap:
+# Roadmap:
 - Message d'alerte dans la console lors d'erreur type bezierVertex avant vertex (au lieu de planter)
 
 - Suppression individuelle de point
 
 - Commenter le code
+
+- expoter un screenshot (output at t)
+
+- importer un shape (avec identifiant)
+
+-corriger invertion anchor cp
+
+- toggle fusion de point ou non
+
+-colorer les points de controle differament des points d'ancrage
