@@ -35,8 +35,10 @@ R -> Supprime tous les points. (/!\ cette commande vous fait perdre 
 
 - importer un shape (avec identifiant)
 
--corriger invertion anchor cp
+- corriger invertion anchor cp
 
 - toggle fusion de point ou non
 
--colorer les points de controle differament des points d'ancrage
+- colorer les points de controle differament des points d'ancrage
+
+- modes de suppression (point, shape, all)
