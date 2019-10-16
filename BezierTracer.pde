@@ -62,13 +62,13 @@ void dumpToFile(){
   for(Instruction i: globalinstructlist){
     if(i.type.equals("beginShape")&&(start)){
       start = false;
-      dump.println("beginShape()");
+      dump.println("beginShape();");
     }else if(i.type.equals("vertex")){
-      dump.println("vertex("+int(i.points[0].x)+","+int(i.points[0].y)+")");
+      dump.println("vertex("+int(i.points[0].x)+","+int(i.points[0].y)+");");
     }else if(i.type.equals("bezierVertex")){
-      dump.println("bezierVertex("+int(i.points[0].x)+","+int(i.points[0].y)+","+int(i.points[1].x)+","+int(i.points[1].y)+","+int(i.points[2].x)+","+int(i.points[2].y)+")");
+      dump.println("bezierVertex("+int(i.points[0].x)+","+int(i.points[0].y)+","+int(i.points[1].x)+","+int(i.points[1].y)+","+int(i.points[2].x)+","+int(i.points[2].y)+");");
     }else if(i.type.equals("endShape")){
-      dump.println("endShape()");
+      dump.println("endShape();");
       if(counter!=globalinstructlist.size()-2){
         start = true;
       }
